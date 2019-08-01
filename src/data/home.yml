@@ -1,0 +1,9 @@
+path: /
+
+hero: &hero
+  type: hero
+  data:
+    headline: Hello World @ Home
+
+sections:
+  - *hero

@@ -4,8 +4,9 @@
     "jsdoc"
   ],
   "rules": {
+    "import/prefer-default-export": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "require-jsdoc": 1,
+    "require-jsdoc": 0,
     "valid-jsdoc": 1,
   }
 }
