@@ -14,7 +14,7 @@ exports.createPages = ({ actions, graphql }) => {
 
   return graphql(`
     {
-      allDataYaml {
+      allPagesYaml {
         edges {
           node {
             path
@@ -25,7 +25,7 @@ exports.createPages = ({ actions, graphql }) => {
   `).then((result) => {
     if (result.errors) return Promise.reject(result.errors);
 
-    return result.data.allDataYaml.edges.forEach(({ node }) => {
+    return result.data.allPagesYaml.edges.forEach(({ node }) => {
       createPage({
         path: node.path,
         component,
