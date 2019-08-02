@@ -3353,6 +3353,11 @@ cssesc@^2.0.0:
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-2.0.0.tgz#3b13bd1bb1cb36e1bcb5a4dcd27f54c5dcb35703"
   integrity sha512-MsCAG1z9lPdoO/IUMLSBWBSVxVtJ1395VGIQ+Fc2gNdkQ1hNDnQdw3YhA71WJCBW1vdwA0cAnk/DnW6bqoEUYg==
 
+cssesc@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
+  integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
+
 cssnano-preset-default@^4.0.7:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-4.0.7.tgz#51ec662ccfca0f88b396dcd9679cdb931be17f76"
@@ -9463,6 +9468,15 @@ postcss-selector-parser@^5.0.0-rc.4:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
+postcss-selector-parser@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.2.tgz#934cf799d016c83411859e09dcecade01286ec5c"
+  integrity sha512-36P2QR59jDTOAiIkqEprfJDsoNrvwFei3eCqKd1Y0tUsBimsq39BLp7RD+JWny3WgB1zGhJX8XVePwm9k4wdBg==
+  dependencies:
+    cssesc "^3.0.0"
+    indexes-of "^1.0.1"
+    uniq "^1.0.1"
+
 postcss-sorting@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-5.0.1.tgz#10d5d0059eea8334dacc820c0121864035bc3f11"
@@ -10500,6 +10514,11 @@ sass-loader@^7.0.1:
     pify "^3.0.0"
     semver "^5.5.0"
 
+sass-rem@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/sass-rem/-/sass-rem-2.0.1.tgz#dd863ec9ca5e0597eae5dd239f1f00a6c0f729b0"
+  integrity sha512-Fuf7i1Wr7n1lIdCiImhCJ1/S0jEYq1OmrlqyKuJKSU2B2kHbU09HJIo5AuADvbf3DJLlRxU7b8Jm8D6m5lfqmA==
+
 sax@>=0.6.0, sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
@@ -11401,6 +11420,17 @@ stylelint-order@^3.0.1:
     lodash "^4.17.14"
     postcss "^7.0.17"
     postcss-sorting "^5.0.1"
+
+stylelint-scss@^3.9.2:
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.9.2.tgz#5435174a57696ee52eae40146778a4e62f7ed3a3"
+  integrity sha512-VUh173p3T1qJf016P7yeJ6nxkUpqF5qQ+VSDw3J8P6wEJbA1loaNgBHR3k3skHvUkF+9brLO1ibCHA00pjW3cw==
+  dependencies:
+    lodash "^4.17.11"
+    postcss-media-query-parser "^0.2.3"
+    postcss-resolve-nested-selector "^0.1.1"
+    postcss-selector-parser "^6.0.2"
+    postcss-value-parser "^4.0.0"
 
 stylelint-webpack-plugin@^0.10.5:
   version "0.10.5"
