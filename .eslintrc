@@ -6,6 +6,7 @@
   "rules": {
     "import/prefer-default-export": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/no-array-index-key": "off",
     "require-jsdoc": 0,
     "valid-jsdoc": 1,
   }
