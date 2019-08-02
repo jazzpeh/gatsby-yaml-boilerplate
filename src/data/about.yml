@@ -1,9 +1,0 @@
-path: /about
-
-hero: &hero
-  type: hero
-  data:
-    headline: Hello World @ About
-
-sections:
-  - *hero

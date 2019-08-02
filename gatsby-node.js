@@ -8,7 +8,7 @@
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
-  const component = require.resolve('./src/components/layout.js');
+  const component = require.resolve('./src/components/layout/layout.js');
 
   return graphql(`
     {

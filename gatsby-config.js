@@ -3,6 +3,7 @@ module.exports = {
     title: 'Gatsby Extended Starter',
     description: 'This extended starter ships with the main Gatsby configuration such as eslint, yaml, stylelint which you might need to kick start a good project.',
     author: '@jazzpeh',
+    image: '',
   },
   plugins: [
     {

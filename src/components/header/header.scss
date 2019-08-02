@@ -1,0 +1,21 @@
+@import '../../styles/base';
+
+.header {
+  background: $primary-color;
+  margin-bottom: rem(20px);
+
+  &__container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: rem(30px) rem(40px);
+  }
+
+  &__brand {
+    color: $white;
+    text-decoration: none;
+  }
+
+  &__headline {
+    margin: 0;
+  }
+}

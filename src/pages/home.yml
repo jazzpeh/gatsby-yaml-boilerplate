@@ -1,9 +1,17 @@
 path: /
+meta:
+  title: Home
+  description: Welcome to your new Gatsby site.
+  image: ''
+  type: ''
 
 hero: &hero
   type: hero
   data:
-    headline: Hello World @ Home
+    headline: Hi People
+    body: >-
+      Welcome to your new Gatsby site.<br><br>
+      Now go build something great.
 
 sections:
   - *hero
