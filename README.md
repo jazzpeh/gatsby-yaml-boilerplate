@@ -30,7 +30,7 @@
 
 - Data-driven static web development structure using `.yaml` files
 - Proper ESLint for maintaining code standard
-- Sass support with linter (using `.stylelintr`) for maintaining code standard
+- Sass support with linter (using `.stylelintrc`) for maintaining code standard
 
 
 ## License
